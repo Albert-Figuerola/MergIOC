@@ -1,0 +1,207 @@
+@import url('https://fonts.cdnfonts.com/css/nunito');
+
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display:flex;
+  flex-direction: column;
+  background-image: url("https://png.pngtree.com/png-clipart/20220925/original/pngtree-ice-and-fire-blend-blue-red-png-image_8631135.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  z-index: 1;
+  font-family: nunito;
+  font-size: 1.2em;
+  font-style: italic;
+  color:grey;
+  background-color: rgba(255,255,255,0.3);
+}
+
+/* tauler */
+#tauler {
+
+  background-color: #888;
+  border-radius: 0px;
+  border:5px solid #888;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tauler {
+  z-index: 50;
+}
+
+.fil {
+  width: 510px;
+  height: 85px;
+  position: relative;
+  display: table-row;
+}
+
+.col {
+  background-color: white;
+  width: 85px;
+  height: 85px;
+  position: relative;
+  display: table-cell;
+  border-radius: 0px;
+  border: 5px solid #888;
+  text-align: center;
+  vertical-align: middle;
+  font-family: nunito;
+  font-size: 50px;
+}
+
+.fa-droplet {
+  color: #6495ED;
+  cursor: move;
+}
+
+.fa-seedling {
+  color: #DFFF00;
+  cursor: move;
+}
+
+.fa-tree {
+  color: #196F3D;
+  cursor: move;
+}
+
+.fa-chair {
+  color: #A04000;
+  cursor: move;
+}
+
+.fa-pepper-hot {
+  color: #E11212;
+  cursor: move;
+}
+
+.fa-dragon {
+  color: #82E0AA;
+  cursor: move;
+}
+
+.fa-wheat-awn {
+  color: #D4AC0D;
+  cursor: move;
+}
+
+.fa-egg {
+  color: #CACFD2;
+  cursor: move;
+}
+
+.fa-cookie-bite {
+  color: #BF6900;
+  cursor: move;
+}
+
+.fa-ice-cream {
+  color: #8E44AD;
+  cursor: move;
+}
+
+.fa-igloo {
+  color: #5DADE2;
+  cursor: move;
+}
+
+.fa-feather {
+  color: #85C1E9;
+  cursor: move;
+}
+
+.fa-broom {
+  color: #B02E0C;
+  cursor: move;
+}
+
+.fa-hat-wizard {
+  color: #255F85;
+  cursor: move;
+}
+
+.fa-frog {
+  color: #697A21;
+  cursor: move;
+}
+
+.fa-icicles {
+  color: #9F87AF;
+  cursor: move;
+}
+
+.fa-snowman {
+  color: #85C1E9;
+  cursor: move;
+}
+
+.fa-carrot {
+  color: #D35400;
+  cursor: move;
+}
+
+.fa-cloud-rain {
+  color: blue;
+  cursor:pointer;
+}
+
+.fa-fire {
+  color: orange;
+  cursor: move;
+}
+
+
+.fa-volcano {
+  color: red;
+  cursor:pointer;
+}
+
+.fa-volcano, .fa-cloud-rain, .fa-house, .fa-egg, .fa-igloo, .fa-snowman{
+  animation: blink 0.8s ease-in infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1 }
+  10% { opacity: 0.4 }
+}
+#coord {
+  display: table;
+  margin:5px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#coord input {
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  display: table-cell;
+  border-radius: 0px;
+  border: 5px solid #888;
+  text-align: center;
+  vertical-align: middle;
+  font-family: nunito;
+  font-size: 50px;
+  margin-bottom: 3px;
+}
+
+#coord button {
+  font-size: 1.5em;
+  width: 8vw;
+}
