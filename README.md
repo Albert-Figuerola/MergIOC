@@ -1,2 +1,10 @@
 # MergIOC
-Juego de fusionar elemento haciendo drag and drop. Cuando se fusionan elementos iguales, se crean nuevos elementos realizando una petición AJAX.
+
+Juego de fusionar elementos iguales haciendo drag and drop. 
+
+Al fusionar elementos iguales, estos evolucionan a nuevos elementos. Los elementos nuevos, se crean realizando una petición AJAX.
+## Aprendizaje
+
+ - AJAX
+ - JavaScript
+ - jQuery
